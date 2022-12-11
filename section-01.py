@@ -14,10 +14,10 @@ def infinite_sequence():
         yield num
         num += 1
 
-infinite = infinite_sequence()
-print(type(infinite))
-print(next(infinite))
-print(next(infinite))
+# infinite = infinite_sequence()
+# print(type(infinite))
+# print(next(infinite))
+# print(next(infinite))
 
 # Output:
 #    <class 'generator'>
@@ -32,3 +32,9 @@ def infinite_sequence():
         yield num
         num += 1
         yield "This is the second yield statement!"
+
+infinite = infinite_sequence()
+print(type(infinite))
+print(next(infinite))
+print(next(infinite))
+print(next(infinite))
