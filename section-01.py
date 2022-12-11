@@ -13,3 +13,8 @@ def infinite_sequence():
     while True:
         yield num
         num += 1
+
+infinite = infinite_sequence()
+print(type(infinite))
+print(next(infinite))
+print(next(infinite))
