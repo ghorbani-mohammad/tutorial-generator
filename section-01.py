@@ -6,8 +6,8 @@ def infinite_sequence():
         return num
         num += 1
 
-# Converting above function to a generator
 
+# Converting above function to a generator
 def infinite_sequence():
     num = 0
     while True:
