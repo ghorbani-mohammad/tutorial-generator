@@ -23,3 +23,12 @@ print(next(infinite))
 #    <class 'generator'>
 #    0
 #    1
+
+
+# Now we want to add another yield to it
+def infinite_sequence():
+    num = 0
+    while True:
+        yield num
+        num += 1
+        yield "This is the second yield statement!"
