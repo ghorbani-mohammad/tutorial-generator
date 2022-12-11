@@ -18,3 +18,8 @@ infinite = infinite_sequence()
 print(type(infinite))
 print(next(infinite))
 print(next(infinite))
+
+# Output:
+#    <class 'generator'>
+#    0
+#    1
