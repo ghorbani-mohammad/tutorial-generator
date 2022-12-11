@@ -38,3 +38,9 @@ print(type(infinite))
 print(next(infinite))
 print(next(infinite))
 print(next(infinite))
+
+# Output:
+#    <class 'generator'>
+#    0
+#    This is the second yield statement!
+#    1
