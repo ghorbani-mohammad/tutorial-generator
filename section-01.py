@@ -44,3 +44,6 @@ def infinite_sequence():
 #    0
 #    This is the second yield statement!
 #    1
+
+
+# Lets see what happens over finite sequence
