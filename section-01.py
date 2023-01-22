@@ -1,5 +1,6 @@
 # initial example, normal function
 
+
 def infinite_sequence():
     num = 0
     while True:
@@ -13,6 +14,7 @@ def infinite_sequence():
     while True:
         yield num
         num += 1
+
 
 # infinite = infinite_sequence()
 # print(type(infinite))
@@ -32,6 +34,7 @@ def infinite_sequence():
         yield num
         num += 1
         yield "This is the second yield statement!"
+
 
 # infinite = infinite_sequence()
 # print(type(infinite))
