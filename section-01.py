@@ -1,4 +1,4 @@
-# initial example, normal function
+# initial examples, normal function
 
 
 def infinite_sequence():
