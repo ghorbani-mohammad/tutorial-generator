@@ -1,4 +1,5 @@
 ### This is a tutorial about generators
+Learning generators by seeing multiple examples.
 
 
 #### List of Contents:
