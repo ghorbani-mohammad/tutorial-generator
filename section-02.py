@@ -8,3 +8,7 @@ def fibonacci(n):
 generator = fibonacci(2)
 print(next(generator))
 print(next(generator))
+
+# Output:
+#    0
+#    1
