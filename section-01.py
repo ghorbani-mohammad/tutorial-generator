@@ -3,7 +3,7 @@
 # 02: Example with having two yield
 
 
-# initial examples, normal function
+# 01: Infinite counter
 
 
 def infinite_sequence():
@@ -32,7 +32,7 @@ def infinite_sequence():
 #    1
 
 
-# Now we want to add another yield to it
+# 02: Example with having two yield
 def infinite_sequence():
     num = 0
     while True:
