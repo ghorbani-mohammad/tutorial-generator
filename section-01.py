@@ -1,3 +1,8 @@
+# Two examples are in this file:
+# 01: Infinite counter
+# 02: Example with having two yield
+
+
 # initial examples, normal function
 
 
